@@ -1,0 +1,16 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+27519: ZURIrouter@if27518: <BROADCAST,MULTICAST,UP,LOWER_UP,M-DOWN> mtu 1500 qdisc noqueue state UP qlen 1000
+    link/ether ea:c3:1e:c9:05:54 brd ff:ff:ff:ff:ff:ff
+    inet 88.108.0.1/24 scope global ZURIrouter
+       valid_lft forever preferred_lft forever
+26334: ssh@if26335: <BROADCAST,MULTICAST,UP,LOWER_UP,M-DOWN> mtu 1500 qdisc noqueue state UP 
+    link/ether 02:42:9e:58:11:02 brd ff:ff:ff:ff:ff:ff
+    inet 158.88.17.2/16 brd 158.88.255.255 scope global ssh
+       valid_lft forever preferred_lft forever
+    inet6 fe80::42:9eff:fe58:1102/64 scope link 
+       valid_lft forever preferred_lft forever

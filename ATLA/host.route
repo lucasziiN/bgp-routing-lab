@@ -1,0 +1,3 @@
+default via 88.107.0.2 dev ATLArouter 
+88.107.0.0/24 dev ATLArouter proto kernel scope link src 88.107.0.1 
+158.88.0.0/16 dev ssh proto kernel scope link src 158.88.16.2 

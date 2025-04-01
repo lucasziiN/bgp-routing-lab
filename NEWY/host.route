@@ -1,0 +1,3 @@
+default via 88.105.0.2 dev NEWYrouter 
+88.105.0.0/24 dev NEWYrouter proto kernel scope link src 88.105.0.1 
+158.88.0.0/16 dev ssh proto kernel scope link src 158.88.14.2 

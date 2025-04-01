@@ -1,0 +1,3 @@
+default via 88.104.0.2 dev TRGArouter 
+88.104.0.0/24 dev TRGArouter proto kernel scope link src 88.104.0.1 
+158.88.0.0/16 dev ssh proto kernel scope link src 158.88.13.2 

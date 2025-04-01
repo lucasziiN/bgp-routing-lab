@@ -1,0 +1,16 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host proto kernel_lo 
+       valid_lft forever preferred_lft forever
+26169: ssh@if26170: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default 
+    link/ether 02:42:9e:58:0d:02 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 158.88.13.2/16 brd 158.88.255.255 scope global ssh
+       valid_lft forever preferred_lft forever
+    inet6 fe80::42:9eff:fe58:d02/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+27525: TRGArouter@if27524: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 1e:e2:af:bd:20:f6 brd ff:ff:ff:ff:ff:ff link-netnsid 1
+    inet 88.104.0.1/24 scope global TRGArouter
+       valid_lft forever preferred_lft forever

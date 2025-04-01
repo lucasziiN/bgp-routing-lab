@@ -1,0 +1,24 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host proto kernel_lo 
+       valid_lft forever preferred_lft forever
+25682: ssh@if25683: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default 
+    link/ether 02:42:9e:58:c8:05 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 158.88.200.5/16 brd 158.88.255.255 scope global ssh
+       valid_lft forever preferred_lft forever
+    inet6 fe80::42:9eff:fe58:c805/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+28907: 88-EAST@if28906: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc netem state UP group default qlen 1000
+    link/ether 6a:de:2f:93:56:2c brd ff:ff:ff:ff:ff:ff link-netnsid 1
+    inet 192.168.78.1/24 scope global 88-EAST
+       valid_lft forever preferred_lft forever
+    inet6 fe80::68de:2fff:fe93:562c/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+28919: 88-MID@if28918: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc netem state UP group default qlen 1000
+    link/ether 82:c5:d5:79:6f:8e brd ff:ff:ff:ff:ff:ff link-netnsid 2
+    inet 192.168.77.4/24 scope global 88-MID
+       valid_lft forever preferred_lft forever
+    inet6 fe80::80c5:d5ff:fe79:6f8e/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
