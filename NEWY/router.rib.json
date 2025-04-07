@@ -1,4 +1,70 @@
 {
+  "1.0.0.0/8":[
+    {
+      "prefix":"1.0.0.0/8",
+      "prefixLen":8,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":20,
+      "metric":0,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":1,
+      "internalNextHopActiveNum":1,
+      "nexthopGroupId":471,
+      "installedNexthopGroupId":471,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"180.121.0.1",
+          "afi":"ipv4",
+          "interfaceIndex":31307,
+          "interfaceName":"ixp_121",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "15.0.0.0/8":[
+    {
+      "prefix":"15.0.0.0/8",
+      "prefixLen":8,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":20,
+      "metric":0,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":1,
+      "internalNextHopActiveNum":1,
+      "nexthopGroupId":472,
+      "installedNexthopGroupId":472,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"180.121.0.15",
+          "afi":"ipv4",
+          "interfaceIndex":31307,
+          "interfaceName":"ixp_121",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
   "88.0.1.0/30":[
     {
       "prefix":"88.0.1.0/30",
@@ -1223,6 +1289,39 @@
       ]
     }
   ],
+  "96.0.0.0/8":[
+    {
+      "prefix":"96.0.0.0/8",
+      "prefixLen":8,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":20,
+      "metric":0,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":1,
+      "internalNextHopActiveNum":1,
+      "nexthopGroupId":473,
+      "installedNexthopGroupId":473,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"180.121.0.96",
+          "afi":"ipv4",
+          "interfaceIndex":31307,
+          "interfaceName":"ixp_121",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
   "158.88.0.0/16":[
     {
       "prefix":"158.88.0.0/16",
@@ -1499,8 +1598,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":465,
-      "installedNexthopGroupId":465,
+      "nexthopGroupId":467,
+      "installedNexthopGroupId":467,
       "nexthops":[
         {
           "flags":3,
