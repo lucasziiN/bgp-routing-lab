@@ -1391,8 +1391,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":546,
-      "installedNexthopGroupId":546,
+      "nexthopGroupId":564,
+      "installedNexthopGroupId":564,
       "nexthops":[
         {
           "flags":3,
