@@ -1,0 +1,18 @@
+PARI_router# show ip bgp summary
+
+IPv4 Unicast Summary (VRF default):
+BGP router identifier 88.153.0.1, local AS number 88 vrf-id 0
+BGP table version 0
+RIB entries 0, using 0 bytes of memory
+Peers 7, using 5015 KiB of memory
+
+Neighbor        V         AS   MsgRcvd   MsgSent   TblVer  InQ OutQ  Up/Down Sta                                     te/PfxRcd   PfxSnt Desc
+88.151.0.1      4         88      8551      8565        0    0    0 5d22h18m                                                 0        0 N/A
+88.152.0.1      4         88      8550      8564        0    0    0 5d22h20m                                                 0        0 N/A
+88.154.0.1      4         88      8529      8558        0    0    0 5d22h01m                                                 0        0 N/A
+88.155.0.1      4         88      8551      8567        0    0    0 5d22h12m                                                 0        0 N/A
+88.156.0.1      4         88      8551      8569        0    0    0 5d22h15m                                                 0        0 N/A
+88.157.0.1      4         88      8553      8568        0    0    0 5d22h04m                                                 0        0 N/A
+88.158.0.1      4         88      8553      8567        0    0    0 5d22h03m                                                 0        0 N/A
+
+Total number of neighbors 7
