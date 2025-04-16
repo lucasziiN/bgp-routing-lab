@@ -143,6 +143,51 @@
     {
       "prefix":"88.0.2.0/30",
       "prefixLen":30,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":465,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.8.1",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.4.2",
+          "afi":"ipv4",
+          "interfaceIndex":30739,
+          "interfaceName":"port_LOND",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
+    {
+      "prefix":"88.0.2.0/30",
+      "prefixLen":30,
       "protocol":"ospf",
       "vrfId":0,
       "vrfName":"default",
@@ -410,6 +455,51 @@
     {
       "prefix":"88.0.7.0/30",
       "prefixLen":30,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":40,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":465,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.8.1",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.4.2",
+          "afi":"ipv4",
+          "interfaceIndex":30739,
+          "interfaceName":"port_LOND",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
+    {
+      "prefix":"88.0.7.0/30",
+      "prefixLen":30,
       "protocol":"ospf",
       "vrfId":0,
       "vrfName":"default",
@@ -483,6 +573,51 @@
     }
   ],
   "88.0.9.0/30":[
+    {
+      "prefix":"88.0.9.0/30",
+      "prefixLen":30,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":466,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.12.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.6.2",
+          "afi":"ipv4",
+          "interfaceIndex":30743,
+          "interfaceName":"port_ZURI",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
     {
       "prefix":"88.0.9.0/30",
       "prefixLen":30,
@@ -638,6 +773,41 @@
     {
       "prefix":"88.0.13.0/30",
       "prefixLen":30,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":467,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.11.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
+    {
+      "prefix":"88.0.13.0/30",
+      "prefixLen":30,
       "protocol":"ospf",
       "vrfId":0,
       "vrfName":"default",
@@ -732,6 +902,51 @@
     }
   ],
   "88.101.0.0/24":[
+    {
+      "prefix":"88.101.0.0/24",
+      "prefixLen":24,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":465,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.8.1",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.4.2",
+          "afi":"ipv4",
+          "interfaceIndex":30739,
+          "interfaceName":"port_LOND",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
     {
       "prefix":"88.101.0.0/24",
       "prefixLen":24,
@@ -898,6 +1113,41 @@
     {
       "prefix":"88.106.0.0/24",
       "prefixLen":24,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":468,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.10.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
+    {
+      "prefix":"88.106.0.0/24",
+      "prefixLen":24,
       "protocol":"ospf",
       "vrfId":0,
       "vrfName":"default",
@@ -928,6 +1178,41 @@
     }
   ],
   "88.107.0.0/24":[
+    {
+      "prefix":"88.107.0.0/24",
+      "prefixLen":24,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":467,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.11.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
     {
       "prefix":"88.107.0.0/24",
       "prefixLen":24,
@@ -974,6 +1259,51 @@
     {
       "prefix":"88.108.0.0/24",
       "prefixLen":24,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":466,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.12.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.6.2",
+          "afi":"ipv4",
+          "interfaceIndex":30743,
+          "interfaceName":"port_ZURI",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
+    {
+      "prefix":"88.108.0.0/24",
+      "prefixLen":24,
       "protocol":"ospf",
       "vrfId":0,
       "vrfName":"default",
@@ -1004,6 +1334,51 @@
     }
   ],
   "88.151.0.1/32":[
+    {
+      "prefix":"88.151.0.1/32",
+      "prefixLen":32,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":465,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.8.1",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.4.2",
+          "afi":"ipv4",
+          "interfaceIndex":30739,
+          "interfaceName":"port_LOND",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
     {
       "prefix":"88.151.0.1/32",
       "prefixLen":32,
@@ -1170,6 +1545,41 @@
     {
       "prefix":"88.156.0.1/32",
       "prefixLen":32,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":468,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.10.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
+    {
+      "prefix":"88.156.0.1/32",
+      "prefixLen":32,
       "protocol":"ospf",
       "vrfId":0,
       "vrfName":"default",
@@ -1200,6 +1610,41 @@
     }
   ],
   "88.157.0.1/32":[
+    {
+      "prefix":"88.157.0.1/32",
+      "prefixLen":32,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":467,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.11.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
     {
       "prefix":"88.157.0.1/32",
       "prefixLen":32,
@@ -1243,6 +1688,51 @@
     }
   ],
   "88.158.0.1/32":[
+    {
+      "prefix":"88.158.0.1/32",
+      "prefixLen":32,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":466,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.12.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.6.2",
+          "afi":"ipv4",
+          "interfaceIndex":30743,
+          "interfaceName":"port_ZURI",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
     {
       "prefix":"88.158.0.1/32",
       "prefixLen":32,
@@ -1396,6 +1886,41 @@
     {
       "prefix":"179.85.88.0/30",
       "prefixLen":30,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":468,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.10.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
+    {
+      "prefix":"179.85.88.0/30",
+      "prefixLen":30,
       "protocol":"ospf",
       "vrfId":0,
       "vrfName":"default",
@@ -1493,6 +2018,51 @@
     {
       "prefix":"179.88.89.0/30",
       "prefixLen":30,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":466,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.12.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.6.2",
+          "afi":"ipv4",
+          "interfaceIndex":30743,
+          "interfaceName":"port_ZURI",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
+    {
+      "prefix":"179.88.89.0/30",
+      "prefixLen":30,
       "protocol":"ospf",
       "vrfId":0,
       "vrfName":"default",
@@ -1523,6 +2093,41 @@
     }
   ],
   "179.88.90.0/30":[
+    {
+      "prefix":"179.88.90.0/30",
+      "prefixLen":30,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":467,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.11.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
     {
       "prefix":"179.88.90.0/30",
       "prefixLen":30,
@@ -1599,6 +2204,51 @@
     }
   ],
   "198.88.0.0/24":[
+    {
+      "prefix":"198.88.0.0/24",
+      "prefixLen":24,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "distance":200,
+      "metric":20,
+      "table":254,
+      "internalStatus":0,
+      "internalFlags":5,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":465,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"88.0.8.1",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.4.2",
+          "afi":"ipv4",
+          "interfaceIndex":30739,
+          "interfaceName":"port_LOND",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":1,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    },
     {
       "prefix":"198.88.0.0/24",
       "prefixLen":24,
