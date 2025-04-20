@@ -16,7 +16,7 @@
       "internalFlags":13,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":570,
+      "nexthopGroupId":654,
       "installedNexthopGroupId":388,
       "nexthops":[
         {
@@ -58,7 +58,7 @@
       "internalFlags":13,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":571,
+      "nexthopGroupId":655,
       "installedNexthopGroupId":388,
       "nexthops":[
         {
@@ -1296,7 +1296,7 @@
       "internalFlags":13,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":572,
+      "nexthopGroupId":656,
       "installedNexthopGroupId":388,
       "nexthops":[
         {
