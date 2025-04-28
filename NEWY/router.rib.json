@@ -16,8 +16,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":529,
-      "installedNexthopGroupId":529,
+      "nexthopGroupId":573,
+      "installedNexthopGroupId":573,
       "nexthops":[
         {
           "flags":3,
@@ -49,8 +49,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":530,
-      "installedNexthopGroupId":530,
+      "nexthopGroupId":574,
+      "installedNexthopGroupId":574,
       "nexthops":[
         {
           "flags":3,
@@ -59,6 +59,59 @@
           "afi":"ipv4",
           "interfaceIndex":31307,
           "interfaceName":"ixp_121",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "86.0.0.0/8":[
+    {
+      "prefix":"86.0.0.0/8",
+      "prefixLen":8,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":200,
+      "metric":0,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":13,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":596,
+      "installedNexthopGroupId":411,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"179.86.88.1",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"88.0.5.1",
+          "afi":"ipv4",
+          "interfaceIndex":30740,
+          "interfaceName":"port_PARI",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"88.0.8.1",
+          "afi":"ipv4",
+          "interfaceIndex":30746,
+          "interfaceName":"port_LOND",
+          "resolver":true,
           "active":true,
           "weight":1
         }
@@ -354,8 +407,8 @@
       "internalFlags":8,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":447,
-      "installedNexthopGroupId":447,
+      "nexthopGroupId":562,
+      "installedNexthopGroupId":562,
       "nexthops":[
         {
           "flags":3,
@@ -483,7 +536,7 @@
       "internalFlags":0,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":44,
+      "nexthopGroupId":561,
       "nexthops":[
         {
           "flags":1,
@@ -511,8 +564,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":34,
-      "installedNexthopGroupId":34,
+      "nexthopGroupId":555,
+      "installedNexthopGroupId":555,
       "nexthops":[
         {
           "flags":3,
@@ -956,8 +1009,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":316,
-      "installedNexthopGroupId":316,
+      "nexthopGroupId":563,
+      "installedNexthopGroupId":563,
       "nexthops":[
         {
           "flags":3,
@@ -1238,8 +1291,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":316,
-      "installedNexthopGroupId":316,
+      "nexthopGroupId":563,
+      "installedNexthopGroupId":563,
       "nexthops":[
         {
           "flags":3,
@@ -1320,6 +1373,48 @@
       ]
     }
   ],
+  "90.0.0.0/8":[
+    {
+      "prefix":"90.0.0.0/8",
+      "prefixLen":8,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":200,
+      "metric":0,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":13,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":577,
+      "installedNexthopGroupId":228,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"179.88.90.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"88.0.11.2",
+          "afi":"ipv4",
+          "interfaceIndex":30753,
+          "interfaceName":"port_ATLA",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
   "96.0.0.0/8":[
     {
       "prefix":"96.0.0.0/8",
@@ -1337,8 +1432,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":531,
-      "installedNexthopGroupId":531,
+      "nexthopGroupId":575,
+      "installedNexthopGroupId":575,
       "nexthops":[
         {
           "flags":3,
@@ -1367,7 +1462,7 @@
       "internalFlags":0,
       "internalNextHopNum":4,
       "internalNextHopActiveNum":4,
-      "nexthopGroupId":437,
+      "nexthopGroupId":569,
       "nexthops":[
         {
           "flags":1,
@@ -1454,8 +1549,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":316,
-      "installedNexthopGroupId":316,
+      "nexthopGroupId":563,
+      "installedNexthopGroupId":563,
       "nexthops":[
         {
           "flags":3,

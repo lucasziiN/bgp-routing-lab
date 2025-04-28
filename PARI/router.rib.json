@@ -16,7 +16,7 @@
       "internalFlags":13,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":506,
+      "nexthopGroupId":530,
       "installedNexthopGroupId":90,
       "nexthops":[
         {
@@ -58,7 +58,7 @@
       "internalFlags":13,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":507,
+      "nexthopGroupId":531,
       "installedNexthopGroupId":90,
       "nexthops":[
         {
@@ -76,6 +76,48 @@
           "afi":"ipv4",
           "interfaceIndex":30741,
           "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "86.0.0.0/8":[
+    {
+      "prefix":"86.0.0.0/8",
+      "prefixLen":8,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":200,
+      "metric":0,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":13,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":553,
+      "installedNexthopGroupId":150,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"179.86.88.1",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"88.0.1.1",
+          "afi":"ipv4",
+          "interfaceIndex":30732,
+          "interfaceName":"port_HAML",
           "resolver":true,
           "active":true,
           "weight":1
@@ -1306,6 +1348,59 @@
       ]
     }
   ],
+  "90.0.0.0/8":[
+    {
+      "prefix":"90.0.0.0/8",
+      "prefixLen":8,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":200,
+      "metric":0,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":13,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":534,
+      "installedNexthopGroupId":402,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"179.88.90.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"88.0.5.2",
+          "afi":"ipv4",
+          "interfaceIndex":30741,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"88.0.6.2",
+          "afi":"ipv4",
+          "interfaceIndex":30743,
+          "interfaceName":"port_ZURI",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
   "96.0.0.0/8":[
     {
       "prefix":"96.0.0.0/8",
@@ -1323,7 +1418,7 @@
       "internalFlags":13,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":508,
+      "nexthopGroupId":532,
       "installedNexthopGroupId":90,
       "nexthops":[
         {

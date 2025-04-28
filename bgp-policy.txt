@@ -1,0 +1,36 @@
+Only carry transit for customers:
+- Incoming routes tagged by relationship: 
+    • 88:10=provider, 88:20=peer, 88:30=customer  
+- Export policies:
+    • To customers: permit all  
+    • To peers/providers: deny 88:10, deny 88:20, permit 88:30 + own prefix  
+
+
+LG after:
+BGP table version is 290, local router ID is 88.158.0.1, vrf id 0
+Default local pref 100, local AS 88
+Status codes:  s suppressed, d damped, h history, * valid, > best, = multipath,
+               i internal, r RIB-failure, S Stale, R Removed
+Nexthop codes: @NNN nexthop's vrf id, < announce-nh-self
+Origin codes:  i - IGP, e - EGP, ? - incomplete
+RPKI validation codes: V valid, I invalid, N Not found
+
+   Network          Next Hop            Metric LocPrf Weight Path
+*>i1.0.0.0/8        180.121.0.1              0    100      0 1 i
+*>i15.0.0.0/8       180.121.0.15             0    100      0 15 i
+*>i86.0.0.0/8       179.86.88.1              0    100      0 86 i
+* i88.0.0.0/8       88.154.0.1               0    100      0 i
+* i                 88.157.0.1               0    100      0 i
+* i                 88.155.0.1               0    100      0 i
+* i                 88.156.0.1               0    100      0 i
+* i                 88.151.0.1               0    100      0 i
+* i                 88.153.0.1               0    100      0 i
+* i                 88.152.0.1               0    100      0 i
+*>                  0.0.0.0                  0         32768 i
+*>i90.0.0.0/8       179.88.90.2                   100      0 90 i
+*>i96.0.0.0/8       180.121.0.96             0    100      0 96 i
+
+Displayed  6 routes and 13 total paths
+
+
+Side note: I think I only have such few paths because AS90 isn't sharing any of his routes with me. They could be sharing paths to AS 92 and AS 93, which are their customers but aren't so :( . My provider, AS 86 also isn't contributing with any routes as themselves don't have many. And there is only 1 or 2 peers in my IXP that have done some of their configuration but I dont think they started sharing routes at all. 

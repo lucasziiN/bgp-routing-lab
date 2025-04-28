@@ -16,8 +16,8 @@
       "internalFlags":13,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":514,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":553,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":5,
@@ -58,12 +58,54 @@
       "internalFlags":13,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":515,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":554,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":5,
           "ip":"180.121.0.15",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"88.0.10.1",
+          "afi":"ipv4",
+          "interfaceIndex":30750,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "86.0.0.0/8":[
+    {
+      "prefix":"86.0.0.0/8",
+      "prefixLen":8,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":200,
+      "metric":0,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":13,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":576,
+      "installedNexthopGroupId":542,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"179.86.88.1",
           "afi":"ipv4",
           "active":true,
           "recursive":true,
@@ -131,8 +173,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -164,8 +206,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -197,8 +239,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -230,8 +272,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -263,8 +305,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -296,8 +338,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -385,8 +427,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -418,8 +460,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -448,7 +490,7 @@
       "internalFlags":0,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":314,
+      "nexthopGroupId":540,
       "nexthops":[
         {
           "flags":1,
@@ -507,8 +549,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -540,8 +582,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -573,8 +615,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -606,8 +648,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -639,8 +681,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -672,8 +714,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -705,8 +747,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -738,8 +780,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -771,8 +813,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -804,8 +846,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -868,8 +910,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -901,8 +943,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -934,8 +976,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -967,8 +1009,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -1000,8 +1042,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -1033,8 +1075,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -1066,8 +1108,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -1130,8 +1172,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -1163,8 +1205,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -1173,6 +1215,48 @@
           "afi":"ipv4",
           "interfaceIndex":30750,
           "interfaceName":"port_NEWY",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "90.0.0.0/8":[
+    {
+      "prefix":"90.0.0.0/8",
+      "prefixLen":8,
+      "protocol":"bgp",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":200,
+      "metric":0,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":13,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":557,
+      "installedNexthopGroupId":542,
+      "nexthops":[
+        {
+          "flags":5,
+          "ip":"179.88.90.2",
+          "afi":"ipv4",
+          "active":true,
+          "recursive":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"88.0.10.1",
+          "afi":"ipv4",
+          "interfaceIndex":30750,
+          "interfaceName":"port_NEWY",
+          "resolver":true,
           "active":true,
           "weight":1
         }
@@ -1196,8 +1280,8 @@
       "internalFlags":13,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":516,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":555,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":5,
@@ -1235,7 +1319,7 @@
       "internalFlags":0,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
+      "nexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -1327,8 +1411,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -1360,8 +1444,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -1393,8 +1477,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -1426,8 +1510,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -1459,8 +1543,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
@@ -1492,8 +1576,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":320,
-      "installedNexthopGroupId":320,
+      "nexthopGroupId":542,
+      "installedNexthopGroupId":542,
       "nexthops":[
         {
           "flags":3,
